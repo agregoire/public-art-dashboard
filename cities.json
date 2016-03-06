@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Edmonton",
+    "state": "AB",
+    "country": "Canada",
+    "feedUrl": "https://data.edmonton.ca/resource/m6c2-uhxn.json",
+    "dataFormat": "JSON"
+  },
+  {
+    "name": "Montréal",
+    "state": "QC",
+    "country": "Canada",
+    "feedUrl": "http://donnees.ville.montreal.qc.ca/dataset/2980db3a-9eb4-4c0e-b7c6-a6584cb769c9/resource/18705524-c8a6-49a0-bca7-92f493e6d329/download/oeuvresdonneesouvertes.json",
+    "dataFormat": "JSON"
+  },
+  {
+    "name": "Ottawa",
+    "state": "ON",
+    "country": "Canada",
+    "feedUrl": "http://data.ottawa.ca/dataset/eb00fb25-93bf-4565-82c7-e63454bc7d1d/resource/ece8cb83-d78e-4db1-a917-2eb375518652/download/publicart160118.csv",
+    "dataFormat": "CSV"
+  },
+  {
+    "name": "Saskatoon",
+    "state": "SK",
+    "country": "Canada",
+    "feedUrl": "https://saskatoonopendataconfig.blob.core.windows.net/converteddata/PublicArtCollection.csv",
+    "dataFormat": "CSV"
+  },
+  {
+    "name": "Strathcona County",
+    "state": "AB",
+    "country": "Canada",
+    "feedUrl": "https://data.strathcona.ca/resource/gqaf-3iz6.json",
+    "dataFormat": "JSON"
+  },
+  {
+    "name": "Surrey",
+    "state": "BC",
+    "country": "Canada",
+    "feedUrl": "http://data.surrey.ca/dataset/179360d8-db1a-4357-80ba-dfb93b8cc3a6/resource/410fadb9-a4bf-437c-995e-0517f7792638/download/timagesopendataarchivescsvpublicart.csv",
+    "dataFormat": "CSV"
+  },
+  {
+    "name": "Tacoma",
+    "state": "WA",
+    "country": "United States",
+    "feedUrl": "https://data.cityoftacoma.org/api/views/49qs-n9hw/rows.json?accessType=DOWNLOAD",
+    "dataFormat": "JSON",
+    "key": "data"
+  },
+  {
+    "name": "Victoria",
+    "state": "BC",
+    "country": "Canada",
+    "feedUrl": "http://vicmap.victoria.ca/_GISData/PublicArt.csv",
+    "dataFormat": "CSV"
+  },
+  {
+    "name": "Cambridge",
+    "state": "MA",
+    "country": "United States",
+    "feedUrl": "https://opendata.arcgis.com/datasets/ddb2f55a8d914e09bc279033d38af6ac_9.csv",
+    "dataFormat": "CSV"
+  },
+  {
+    "name": "Denver",
+    "state": "CO",
+    "country": "United States",
+    "projectUrl": "http://data.denvergov.org/dataset/city-and-county-of-denver-public-art",
+    "feedUrl": "http://data.denvergov.org/download/gis/public_art/csv/public_art.csv",
+    "dataFormat": "CSV"
+  }
+]

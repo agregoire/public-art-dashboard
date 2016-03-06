@@ -1,16 +1,9 @@
-var async  = require('async');
-var cities = [
-  require('./lib/cities/montreal.js'),
-  require('./lib/cities/surrey.js'),
-  require('./lib/cities/edmonton.js'),
-  require('./lib/cities/victoria.js'),
-  require('./lib/cities/strathcona.js'),
-  require('./lib/cities/saskatoon.js'),
-  require('./lib/cities/ottawa.js'),
-  require('./lib/cities/tacoma.js'),
-];
+var async   = require('async'),
+    fs      = require('fs'),
+    fetcher = require('./lib/fetcher');
 
-async.parallel(cities.map(c => c.perform), function(err, results) {
-  if (err)
-    console.log("Error: " + err);
-})
+var cities = JSON.parse(fs.readFileSync("./cities.json").toString());
+
+async.each(cities, function(city, callback) {
+  fetcher.fetch(city.dataFormat, city.feedUrl, city.name, city.key, callback);
+});
