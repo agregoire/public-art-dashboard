@@ -1,13 +1,16 @@
-var async      = require('async');
-    montreal   = require('./lib/cities/montreal.js'),
-    surrey     = require('./lib/cities/surrey.js'),
-    edmonton   = require('./lib/cities/edmonton.js'),
-    victoria   = require('./lib/cities/victoria.js'),
-    strathcona = require('./lib/cities/strathcona.js');
+var async  = require('async');
+var cities = [
+  require('./lib/cities/montreal.js'),
+  require('./lib/cities/surrey.js'),
+  require('./lib/cities/edmonton.js'),
+  require('./lib/cities/victoria.js'),
+  require('./lib/cities/strathcona.js'),
+  require('./lib/cities/saskatoon.js'),
+  require('./lib/cities/ottawa.js'),
+  require('./lib/cities/tacoma.js'),
+];
 
-var cities = [montreal.perform, surrey.perform, edmonton.perform, victoria.perform, strathcona.perform];
-
-async.parallel(cities, function(err, results) {
+async.parallel(cities.map(c => c.perform), function(err, results) {
   if (err)
     console.log("Error: " + err);
 })
