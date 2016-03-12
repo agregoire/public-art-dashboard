@@ -70,5 +70,41 @@
     "projectUrl": "http://data.denvergov.org/dataset/city-and-county-of-denver-public-art",
     "feedUrl": "http://data.denvergov.org/download/gis/public_art/csv/public_art.csv",
     "dataFormat": "CSV"
+  },
+  {
+    "name": "Honolulu",
+    "state": "HI",
+    "country": "United States",
+    "projectUrl": "https://catalog.data.gov/dataset/public-art-30661",
+    "feedUrl": "https://data.honolulu.gov/api/views/yef5-h88r/rows.json?accessType=DOWNLOAD",
+    "dataFormat": "JSON",
+    "key": "data"
+  },
+  {
+    "name": "Baltimore",
+    "state": "MD",
+    "country": "United States",
+    "projectUrl": "https://catalog.data.gov/dataset/public-art-inventory-d9c20",
+    "feedUrl": "https://data.baltimorecity.gov/api/views/5xsg-uc29/rows.json?accessType=DOWNLOAD",
+    "dataFormat": "JSON",
+    "key": "data"
+  },
+  {
+    "name": "Seattle",
+    "state": "WA",
+    "country": "United States",
+    "projectUrl": "https://catalog.data.gov/dataset/public-art-data-92959",
+    "feedUrl": "https://data.seattle.gov/api/views/j7sn-tdzk/rows.json?accessType=DOWNLOAD",
+    "dataFormat": "JSON",
+    "key": "data"
+  },
+  {
+    "name": "San Francisco",
+    "state": "CA",
+    "country": "United States",
+    "projectUrl": "https://catalog.data.gov/dataset/sf-civic-art-collection-a73e5",
+    "feedUrl": "https://data.sfgov.org/api/views/zfw6-95su/rows.json?accessType=DOWNLOAD",
+    "dataFormat": "JSON",
+    "key": "data"
   }
 ]
