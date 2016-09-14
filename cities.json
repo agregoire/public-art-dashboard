@@ -4,42 +4,72 @@
     "state": "AB",
     "country": "Canada",
     "feedUrl": "https://data.edmonton.ca/resource/m6c2-uhxn.json",
-    "dataFormat": "JSON"
+    "dataFormat": "JSON",
+    "population": {
+      "count": 1159869,
+      "year": 2011,
+      "reference": "http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CMA&Code1=835&Geo2=PR&Code2=48&Data=Count&SearchText=edmonton&SearchType=Begins&SearchPR=01&B1=All&Custom=&TABID=1"
+    }
   },
   {
     "name": "Montréal",
     "state": "QC",
     "country": "Canada",
     "feedUrl": "http://donnees.ville.montreal.qc.ca/dataset/2980db3a-9eb4-4c0e-b7c6-a6584cb769c9/resource/18705524-c8a6-49a0-bca7-92f493e6d329/download/oeuvresdonneesouvertes.json",
-    "dataFormat": "JSON"
+    "dataFormat": "JSON",
+    "population": {
+      "count": 1649519,
+      "year": 2011,
+      "reference": "http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CSD&Code1=2466023&Geo2=PR&Code2=01&Data=Count&SearchText=montreal&SearchType=Begins&SearchPR=01&B1=All&Custom=&TABID=1"
+    }
   },
   {
     "name": "Ottawa",
     "state": "ON",
     "country": "Canada",
     "feedUrl": "http://data.ottawa.ca/dataset/eb00fb25-93bf-4565-82c7-e63454bc7d1d/resource/ece8cb83-d78e-4db1-a917-2eb375518652/download/publicart160118.csv",
-    "dataFormat": "CSV"
+    "dataFormat": "CSV",
+    "population": {
+      "count": 921823,
+      "year": 2011,
+      "reference": "http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CMA&Code1=50535&Geo2=PR&Code2=01&Data=Count&SearchText=ottawa&SearchType=Begins&SearchPR=01&B1=All&Custom=&TABID=1"
+    }
   },
   {
     "name": "Saskatoon",
     "state": "SK",
     "country": "Canada",
     "feedUrl": "https://saskatoonopendataconfig.blob.core.windows.net/converteddata/PublicArtCollection.csv",
-    "dataFormat": "CSV"
+    "dataFormat": "CSV",
+    "population": {
+      "count": 222189,
+      "year": 2011,
+      "reference": "http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CSD&Code1=4711066&Geo2=PR&Code2=01&Data=Count&SearchText=saskatoon&SearchType=Begins&SearchPR=01&B1=All&Custom=&TABID=1"
+    }
   },
   {
     "name": "Strathcona County",
     "state": "AB",
     "country": "Canada",
     "feedUrl": "https://data.strathcona.ca/resource/gqaf-3iz6.json",
-    "dataFormat": "JSON"
+    "dataFormat": "JSON",
+    "population": {
+      "count": 92490,
+      "year": 2011,
+      "reference": "http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CSD&Code1=4811052&Geo2=PR&Code2=01&Data=Count&SearchText=Strathcona%20County&SearchType=Begins&SearchPR=01&B1=All&Custom=&TABID=1"
+    }
   },
   {
     "name": "Surrey",
     "state": "BC",
     "country": "Canada",
     "feedUrl": "http://data.surrey.ca/dataset/179360d8-db1a-4357-80ba-dfb93b8cc3a6/resource/410fadb9-a4bf-437c-995e-0517f7792638/download/timagesopendataarchivescsvpublicart.csv",
-    "dataFormat": "CSV"
+    "dataFormat": "CSV",
+    "population": {
+      "count": 468251,
+      "year": 2011,
+      "reference": "http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CSD&Code1=5915004&Geo2=PR&Code2=01&Data=Count&SearchText=surrey&SearchType=Begins&SearchPR=01&B1=All&Custom=&TABID=1"
+    }
   },
   {
     "name": "Tacoma",
