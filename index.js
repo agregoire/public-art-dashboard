@@ -19,5 +19,4 @@ async.each(cities, (city, callback) => {
   if (err) {
     console.log(err);
   }
-  console.log(results);
 });
