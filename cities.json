@@ -77,21 +77,36 @@
     "country": "United States",
     "feedUrl": "https://data.cityoftacoma.org/api/views/49qs-n9hw/rows.json?accessType=DOWNLOAD",
     "dataFormat": "JSON",
-    "key": "data"
+    "key": "data",
+    "population": {
+      "count": 207948,
+      "year": 2015,
+      "reference": "http://www.census.gov/quickfacts/table/PST045215/5370000,00"
+    }
   },
   {
     "name": "Victoria",
     "state": "BC",
     "country": "Canada",
     "feedUrl": "http://vicmap.victoria.ca/_GISData/PublicArt.csv",
-    "dataFormat": "CSV"
+    "dataFormat": "CSV",
+    "population": {
+      "count": 80017,
+      "year": 2011,
+      "reference": "http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CSD&Code1=5917034&Geo2=PR&Code2=01&Data=Count&SearchText=victoria&SearchType=Begins&SearchPR=01&B1=All&Custom=&TABID=1"
+    }
   },
   {
     "name": "Cambridge",
     "state": "MA",
     "country": "United States",
     "feedUrl": "https://opendata.arcgis.com/datasets/ddb2f55a8d914e09bc279033d38af6ac_9.csv",
-    "dataFormat": "CSV"
+    "dataFormat": "CSV",
+    "population": {
+      "count": 110402,
+      "year": 2015,
+      "reference": "http://www.census.gov/quickfacts/table/PST045215/2511000,00"
+    }
   },
   {
     "name": "Denver",
@@ -99,7 +114,12 @@
     "country": "United States",
     "projectUrl": "http://data.denvergov.org/dataset/city-and-county-of-denver-public-art",
     "feedUrl": "http://data.denvergov.org/download/gis/public_art/csv/public_art.csv",
-    "dataFormat": "CSV"
+    "dataFormat": "CSV",
+    "population": {
+      "count": 682545,
+      "year": 2015,
+      "reference": "http://www.census.gov/quickfacts/table/PST045215/0820000,00"
+    }
   },
   {
     "name": "Honolulu",
@@ -108,7 +128,12 @@
     "projectUrl": "https://catalog.data.gov/dataset/public-art-30661",
     "feedUrl": "https://data.honolulu.gov/api/views/yef5-h88r/rows.json?accessType=DOWNLOAD",
     "dataFormat": "JSON",
-    "key": "data"
+    "key": "data",
+    "population": {
+      "count": 998714,
+      "year": 2015,
+      "reference": "http://www.census.gov/quickfacts/table/PST045215/15003,00"
+    }
   },
   {
     "name": "Baltimore",
@@ -117,7 +142,12 @@
     "projectUrl": "https://catalog.data.gov/dataset/public-art-inventory-d9c20",
     "feedUrl": "https://data.baltimorecity.gov/api/views/5xsg-uc29/rows.json?accessType=DOWNLOAD",
     "dataFormat": "JSON",
-    "key": "data"
+    "key": "data",
+    "population": {
+      "count": 621849,
+      "year": 2015,
+      "reference": "http://www.census.gov/quickfacts/table/PST045215/2404000,00"
+    }
   },
   {
     "name": "Seattle",
@@ -126,7 +156,12 @@
     "projectUrl": "https://catalog.data.gov/dataset/public-art-data-92959",
     "feedUrl": "https://data.seattle.gov/api/views/j7sn-tdzk/rows.json?accessType=DOWNLOAD",
     "dataFormat": "JSON",
-    "key": "data"
+    "key": "data",
+    "population": {
+      "count": 684451,
+      "year": 2015,
+      "reference": "http://www.census.gov/quickfacts/table/PST045215/5363000,00"
+    }
   },
   {
     "name": "San Francisco",
@@ -135,6 +170,11 @@
     "projectUrl": "https://catalog.data.gov/dataset/sf-civic-art-collection-a73e5",
     "feedUrl": "https://data.sfgov.org/api/views/zfw6-95su/rows.json?accessType=DOWNLOAD",
     "dataFormat": "JSON",
-    "key": "data"
+    "key": "data",
+    "population": {
+      "count": 864816,
+      "year": 2015,
+      "reference":"http://www.census.gov/quickfacts/table/PST045215/0667000,00"
+    }
   }
 ]
