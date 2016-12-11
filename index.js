@@ -4,19 +4,18 @@ const async = require('async');
 const fs = require('fs');
 const fetcher = require('./lib/fetcher');
 const cities = JSON.parse(fs.readFileSync('./cities.json').toString());
-let results = [];
 
 async.each(cities, (city, callback) => {
-  fetcher.fetch(city, (err, count) => {
+  fetcher.fetch(city, (err, count, works) => {
     if (err) {
       console.log(err);
     }
-    console.log(`Got ${count} for city ${city.name}`);
-    results.push([city, count]);
+    city.artworkCount = count;
+    city.artworkPer1000 = (count / city.population.count) * 10000;
+    city.works = works;
     callback(err);
   });
 }, (err) => {
-  if (err) {
-    console.log(err);
-  }
+  if (err)  console.log(err);
+  console.log(JSON.stringify(cities, null , 2));
 });

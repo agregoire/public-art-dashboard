@@ -1,5 +1,6 @@
 [
   {
+    "id": "edmonton_ab_ca",
     "name": "Edmonton",
     "state": "AB",
     "country": "Canada",
@@ -12,6 +13,7 @@
     }
   },
   {
+    "id": "montreal_qc_ca",
     "name": "Montréal",
     "state": "QC",
     "country": "Canada",
@@ -24,6 +26,7 @@
     }
   },
   {
+    "id": "ottawa_on_ca",
     "name": "Ottawa",
     "state": "ON",
     "country": "Canada",
@@ -36,6 +39,7 @@
     }
   },
   {
+    "id": "saskatoon_sk_ca",
     "name": "Saskatoon",
     "state": "SK",
     "country": "Canada",
@@ -48,6 +52,7 @@
     }
   },
   {
+    "id": "strathcona_county_ab_ca",
     "name": "Strathcona County",
     "state": "AB",
     "country": "Canada",
@@ -60,6 +65,7 @@
     }
   },
   {
+    "id": "surrey_bc_ca",
     "name": "Surrey",
     "state": "BC",
     "country": "Canada",
@@ -72,6 +78,7 @@
     }
   },
   {
+    "id": "tacoma_wa_us",
     "name": "Tacoma",
     "state": "WA",
     "country": "United States",
@@ -85,6 +92,7 @@
     }
   },
   {
+    "id": "victoria_bc_ca",
     "name": "Victoria",
     "state": "BC",
     "country": "Canada",
@@ -97,6 +105,7 @@
     }
   },
   {
+    "id": "cambridge_ma_us",
     "name": "Cambridge",
     "state": "MA",
     "country": "United States",
@@ -109,6 +118,7 @@
     }
   },
   {
+    "id": "denver_co_us",
     "name": "Denver",
     "state": "CO",
     "country": "United States",
@@ -122,6 +132,7 @@
     }
   },
   {
+    "id": "honolulu_hi_us",
     "name": "Honolulu",
     "state": "HI",
     "country": "United States",
@@ -136,6 +147,7 @@
     }
   },
   {
+    "id": "baltimore_md_us",
     "name": "Baltimore",
     "state": "MD",
     "country": "United States",
@@ -150,6 +162,7 @@
     }
   },
   {
+    "id": "seattle_wa_us",
     "name": "Seattle",
     "state": "WA",
     "country": "United States",
@@ -164,6 +177,7 @@
     }
   },
   {
+    "id": "san-francisco_ca_us",
     "name": "San Francisco",
     "state": "CA",
     "country": "United States",
