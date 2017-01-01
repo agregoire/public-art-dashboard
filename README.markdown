@@ -19,3 +19,9 @@ node fetch.js > data.json
 ```
 
 The `data.json` file will now contain an object with all the cities and all of their public artworks.
+
+Run the analyze script to get nice tab-separated reports:
+
+```
+node analyze.js
+```
