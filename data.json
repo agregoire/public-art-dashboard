@@ -11,6 +11,11 @@
       "year": 2011,
       "reference": "http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CMA&Code1=835&Geo2=PR&Code2=48&Data=Count&SearchText=edmonton&SearchType=Begins&SearchPR=01&B1=All&Custom=&TABID=1"
     },
+    "area": {
+      "size": 9426.73,
+      "unit": "km",
+      "reference": "http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/hlt-fst/pd-pl/Table-Tableau.cfm?LANG=Eng&T=205&S=3&RPP=50"
+    },
     "artworkCount": 117,
     "artworkPer1000": 1.0087346070978707,
     "works": [
@@ -845,6 +850,11 @@
       "count": 1649519,
       "year": 2011,
       "reference": "http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CSD&Code1=2466023&Geo2=PR&Code2=01&Data=Count&SearchText=montreal&SearchType=Begins&SearchPR=01&B1=All&Custom=&TABID=1"
+    },
+    "area": {
+      "size": 431.5,
+      "unit": "km",
+      "reference": "http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/hlt-fst/pd-pl/Table-Tableau.cfm?LANG=Eng&T=205&S=3&RPP=50"
     },
     "artworkCount": 299,
     "artworkPer1000": 1.8126496269518568,
@@ -2956,6 +2966,11 @@
       "year": 2011,
       "reference": "http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CMA&Code1=50535&Geo2=PR&Code2=01&Data=Count&SearchText=ottawa&SearchType=Begins&SearchPR=01&B1=All&Custom=&TABID=1"
     },
+    "area": {
+      "size": 6287.03,
+      "unit": "km",
+      "reference": "http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/hlt-fst/pd-pl/Table-Tableau.cfm?LANG=Eng&T=205&S=3&RPP=50"
+    },
     "artworkCount": 278,
     "artworkPer1000": 3.0157633298366386
   },
@@ -2970,6 +2985,11 @@
       "count": 222189,
       "year": 2011,
       "reference": "http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CSD&Code1=4711066&Geo2=PR&Code2=01&Data=Count&SearchText=saskatoon&SearchType=Begins&SearchPR=01&B1=All&Custom=&TABID=1"
+    },
+    "area": {
+      "size": 5214.52,
+      "unit": "km",
+      "reference": "http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/hlt-fst/pd-pl/Table-Tableau.cfm?LANG=Eng&T=205&S=3&RPP=50"
     },
     "artworkCount": 30,
     "artworkPer1000": 1.350201855177349,
@@ -2986,6 +3006,11 @@
       "count": 92490,
       "year": 2011,
       "reference": "http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CSD&Code1=4811052&Geo2=PR&Code2=01&Data=Count&SearchText=Strathcona%20County&SearchType=Begins&SearchPR=01&B1=All&Custom=&TABID=1"
+    },
+    "area": {
+      "size": 1180.56,
+      "unit": "km",
+      "reference": "http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/hlt-fst/pd-pl/Table-Tableau.cfm?LANG=Eng&T=302&SR=1&S=51&O=A&RPP=9999&PR=48&CMA=0"
     },
     "artworkCount": 23,
     "artworkPer1000": 2.486755324899989,
@@ -3165,6 +3190,11 @@
       "year": 2011,
       "reference": "http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CSD&Code1=5915004&Geo2=PR&Code2=01&Data=Count&SearchText=surrey&SearchType=Begins&SearchPR=01&B1=All&Custom=&TABID=1"
     },
+    "area": {
+      "size": 316.41,
+      "unit": "km",
+      "reference": "http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/hlt-fst/pd-pl/Table-Tableau.cfm?LANG=Eng&T=302&SR=1&S=51&O=A&RPP=9999&CMA=0&PR=59"
+    },
     "artworkCount": 61,
     "artworkPer1000": 1.302720122327555
   },
@@ -3180,6 +3210,11 @@
       "count": 207948,
       "year": 2015,
       "reference": "http://www.census.gov/quickfacts/table/PST045215/5370000,00"
+    },
+    "area": {
+      "size": 161.46,
+      "unit": "km",
+      "reference": "http://www.webcitation.org/64vfLAeJ2?url=http%3A%2F%2Fwww.census.gov%2Fgeo%2Fwww%2Fgazetteer%2Ffiles%2FGaz_places_national.txt"
     },
     "artworkCount": 191,
     "artworkPer1000": 9.184988554831016,
@@ -4535,6 +4570,11 @@
       "year": 2011,
       "reference": "http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CSD&Code1=5917034&Geo2=PR&Code2=01&Data=Count&SearchText=victoria&SearchType=Begins&SearchPR=01&B1=All&Custom=&TABID=1"
     },
+    "area": {
+      "size": 696.15,
+      "unit": "km",
+      "reference": "http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/hlt-fst/pd-pl/Table-Tableau.cfm?LANG=Eng&T=205&S=3&RPP=50"
+    },
     "artworkCount": 269,
     "artworkPer1000": 33.61785620555632
   },
@@ -4549,6 +4589,11 @@
       "count": 110402,
       "year": 2015,
       "reference": "http://www.census.gov/quickfacts/table/PST045215/2511000,00"
+    },
+    "area": {
+      "size": 18.47,
+      "unit": "km",
+      "reference": "https://en.wikipedia.org/wiki/Cambridge,_Massachusetts"
     },
     "artworkCount": 105,
     "artworkPer1000": 9.510697269976994
@@ -4565,6 +4610,11 @@
       "count": 682545,
       "year": 2015,
       "reference": "http://www.census.gov/quickfacts/table/PST045215/0820000,00"
+    },
+    "area": {
+      "size": 400,
+      "unit": "km",
+      "reference": "https://en.wikipedia.org/wiki/Denver"
     },
     "artworkCount": 337,
     "artworkPer1000": 4.937403394647972,
@@ -4583,6 +4633,11 @@
       "count": 998714,
       "year": 2015,
       "reference": "http://www.census.gov/quickfacts/table/PST045215/15003,00"
+    },
+    "area": {
+      "size": 177.2,
+      "unit": "km",
+      "reference": "https://en.wikipedia.org/wiki/Honolulu"
     },
     "artworkCount": 199,
     "artworkPer1000": 1.9925624352917852,
@@ -5995,6 +6050,11 @@
       "count": 621849,
       "year": 2015,
       "reference": "http://www.census.gov/quickfacts/table/PST045215/2404000,00"
+    },
+    "area": {
+      "size": 239,
+      "unit": "km",
+      "reference": "https://en.wikipedia.org/wiki/Baltimore"
     },
     "artworkCount": 690,
     "artworkPer1000": 11.095941297646213,
@@ -10845,6 +10905,11 @@
       "year": 2015,
       "reference": "http://www.census.gov/quickfacts/table/PST045215/5363000,00"
     },
+    "area": {
+      "size": 369.2,
+      "unit": "km",
+      "reference": "https://en.wikipedia.org/wiki/Seattle"
+    },
     "artworkCount": 316,
     "artworkPer1000": 4.616838897159914,
     "works": [
@@ -13075,6 +13140,11 @@
       "count": 864816,
       "year": 2015,
       "reference": "http://www.census.gov/quickfacts/table/PST045215/0667000,00"
+    },
+    "area": {
+      "size": 600.6,
+      "unit": "km",
+      "reference": "https://en.wikipedia.org/wiki/San_Francisco"
     },
     "artworkCount": 692,
     "artworkPer1000": 8.001702096168433,

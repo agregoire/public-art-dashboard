@@ -8,7 +8,9 @@ console.log([
   'city',
   'population',
   'artworks',
-  'artworksPer1000'
+  'artworksPer1000',
+  'area',
+  'artworksPerKm'
 ].join('\t'));
 
 data.forEach((datum) => {
@@ -18,6 +20,8 @@ data.forEach((datum) => {
     datum.name,
     datum.population.count,
     datum.artworkCount,
-    datum.artworkPer1000
+    datum.artworkPer1000,
+    datum.area.size,
+    datum.artworkCount / datum.area.size
   ].join('\t'));
 });
