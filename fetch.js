@@ -1,10 +1,11 @@
 'use strict';
 
-const async = require('async'),
-      fs = require('fs'),
-      debug = require('debug')('public-art:fetch'),
-      fetcher = require(__dirname + '/lib/fetcher'),
-      cities = JSON.parse(fs.readFileSync(__dirname + '/cities.json').toString());
+const async = require('async');
+const fs = require('fs');
+const debug = require('debug')('public-art:fetch');
+const fetcher = require('./lib/fetcher');
+
+const cities = JSON.parse(fs.readFileSync('./cities.json').toString());
 
 async.each(cities, (city, callback) => {
   fetcher.fetch(city, (err, count, works) => {

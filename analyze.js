@@ -1,6 +1,8 @@
-const fs = require('fs'),
-      debug = require('debug')('public-art:analyze'),
-      data = JSON.parse(fs.readFileSync(__dirname + '/data.json').toString());
+'use strict';
+
+const fs = require('fs');
+
+const data = JSON.parse(fs.readFileSync('./data.json').toString());
 
 console.log([
   'country',
@@ -10,7 +12,7 @@ console.log([
   'artworks',
   'artworksPer1000',
   'area',
-  'artworksPerKm'
+  'artworksPerKm',
 ].join('\t'));
 
 data.forEach((datum) => {
@@ -22,6 +24,6 @@ data.forEach((datum) => {
     datum.artworkCount,
     datum.artworkPer1000,
     datum.area.size,
-    datum.artworkCount / datum.area.size
+    datum.artworkCount / datum.area.size,
   ].join('\t'));
 });
